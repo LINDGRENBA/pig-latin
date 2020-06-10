@@ -1,6 +1,12 @@
 // business logic
-let translateString = function(userString) {
-  return userString;
+function translateString(userString) {
+  let userArray = userString.split("");
+  if (userString[0] === "a", "e", "i", "o", "u") {
+    return userString + "way";
+  } else {
+    return userString;
+  }
+  return userArray.join("");
 };
 
 
