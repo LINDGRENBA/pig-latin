@@ -12,6 +12,8 @@ function translateString(pigLatin) {
     } else {
       translation = pigLatin;
     }
+
+    // code works until else if and else statements are added
   });
   return translation;
 };

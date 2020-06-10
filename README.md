@@ -31,7 +31,7 @@ Use Behavior Driven Development to create a Pig Latin Translator. Impress all of
 
 ## Known Bugs
 
-There are no known bugs at this time. 
+Adding else if and else statements to business logic causes exception. Input = i, Output = iay.
 
 ## Support and contact details
 
